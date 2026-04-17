@@ -1,0 +1,16 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Developed by DeVGaJ - Meshlink Logo -->
+    <path
+        android:fillColor="#A020F0"
+        android:pathData="M54,20L20,38L20,70L54,88L88,70L88,38L54,20ZM54,25.5L83,41L83,67L54,82.5L25,67L25,41L54,25.5Z" />
+    <path
+        android:fillColor="#A020F0"
+        android:pathData="M54,35L35,46L35,62L54,73L73,62L73,46L54,35ZM54,40.5L68,48.5L68,59.5L54,67.5L40,59.5L40,48.5L54,40.5Z" />
+    <path
+        android:fillColor="#A020F0"
+        android:pathData="M54,48m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0" />
+</vector>
