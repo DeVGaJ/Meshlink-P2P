@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logo.png" width="150" alt="MeshLink Logo">
+  <img src="https://i.imgur.com/a0vGWwL.jpeg" width="150" alt="MeshLink Logo">
 </p>
 
 <h1 align="center">MeshLink</h1>
