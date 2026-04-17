@@ -1,27 +1,48 @@
-# MeshLink
+<p align="center">
+  <img src="logo.png" width="150" alt="MeshLink Logo">
+</p>
 
-**Developed by DeVGaJ**  
-[GitHub Profile](https://github.com/DeVGaJ)
+<h1 align="center">MeshLink</h1>
 
-MeshLink is a decentralized, offline, peer-to-peer (P2P) messaging application built with Flutter. It enables communication in environments without internet access or cellular coverage by creating a mesh network of devices.
+<p align="center">
+  <img src="https://img.shields.io/badge/Platform-Android-brightgreen.svg" alt="Platform">
+  <img src="https://img.shields.io/badge/Language-Kotlin-blue.svg" alt="Language">
+  <img src="https://img.shields.io/badge/Security-E2EE-blueviolet.svg" alt="Security">
+  <img src="https://img.shields.io/badge/Status-Educational-orange.svg" alt="Status">
+</p>
 
-## Features
-- **P2P Mesh Networking:** Uses Google's Nearby Connections API with `P2P_CLUSTER` strategy.
-- **End-to-End Encryption (E2EE):** Secure communication using X25519 key exchange and AES-GCM encryption.
-- **Service ID Routing:** Join specific clusters using alphanumeric invite links.
-- **Nightshade Theme:** AMOLED-friendly true black theme for maximum battery efficiency.
-- **Fast Persistence:** Powered by Hive for ultra-fast local storage.
+<p align="center">
+  <strong>Secure, Off-Grid Peer-to-Peer Messaging</strong>
+</p>
 
-## Architecture
-- **MeshNetworkService:** Manages device discovery, advertising, and payload routing.
-- **EncryptionService:** Handles cryptographic key generation and secure message transformation.
-- **Modular UI:** Clean separation of concerns following standard Flutter practices.
+---
 
-## Requirements
-- Flutter SDK (>= 3.0.0)
-- Android device with Bluetooth, BLE, and Wi-Fi capability.
-- Location permissions (required for P2P discovery).
+### 🌐 What is MeshLink?
+MeshLink is a decentralized communication tool designed for **private, internet-free messaging**. It creates a local mesh network between devices, allowing users to chat securely when Wi-Fi or cellular networks are unavailable.
 
-## Branding
-Developed with ❤️ by **DeVGaJ**.
-Official Repository: [https://github.com/DeVGaJ](https://github.com/DeVGaJ)
+### 👥 Who is it for?
+*   **Emergency Responders:** Communicating in disaster zones with no infrastructure.
+*   **Privacy Seekers:** Users wanting to chat without leaving a digital footprint on servers.
+*   **Travelers/Hikers:** Staying connected in remote areas or "dead zones."
+*   **Tech Enthusiasts:** Exploring P2P mesh networking and encryption.
+
+### 🚀 Key Features
+*   **Zero-Infrastructure:** No internet, no servers, no SIM card required.
+*   **End-to-End Encryption:** Powered by **Tink** (AES-GCM & X25519) to ensure only participants can read messages.
+*   **Auto-Discovery:** Automatically finds and connects to nearby peers using Google's **Nearby Connections**.
+*   **Smart Permissions:** Seamlessly handles Bluetooth and Location requirements to ensure a smooth setup.
+
+### 🛠 Tech Stack
+*   **UI:** Jetpack Compose (Modern Android Toolkit)
+*   **P2P:** Google Nearby Connections API
+*   **Security:** Google Tink Cryptography Library
+*   **Background:** Android Services for reliable connectivity
+
+---
+
+### ⚠️ Educational Warning
+**DISCLAIMER:** This project is developed for **educational and research purposes only**. While it employs strong encryption, it has not undergone a professional security audit. Do not use MeshLink for transmitting highly sensitive or life-critical information in high-risk environments. The developer is not responsible for any misuse or data loss.
+
+---
+
+**Developed with ❤️ by [DeVGaJ](https://github.com/DeVGaJ)**
