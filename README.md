@@ -35,7 +35,7 @@
 MeshLink turns your phone into a localized communication hub. No ISP? No Problem. It uses **Google Nearby Connections** to create a digital web between devices. 
 
 <p align="center">
-  <img src="https://i.giphy.com/3o7TKMGpxVfVIs9v6o.gif" width="400">
+  <img src="https://private-user-images.githubusercontent.com/74038190/271839856-3b4607a1-1cc6-41f1-926f-892ae880e7a5.gif?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzY0NDU0NDYsIm5iZiI6MTc3NjQ0NTE0NiwicGF0aCI6Ii83NDAzODE5MC8yNzE4Mzk4NTYtM2I0NjA3YTEtMWNjNi00MWYxLTkyNmYtODkyYWU4ODBlN2E1LmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA0MTclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwNDE3VDE2NTkwNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWRlNzhkMWU5MDZhZjRhMDgzNjAzZGI5OWFmNTU4MDRjNWRiOWNiNTRhNDhkNGI5ZWMxNGJhMmQzNjI3ODk4N2UmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRmdpZiJ9.Zb_VCx2BMdUXwuooCtWA2O9h2WdRrlBd0-3gAoerNKI" width="400">
   <br>
   <i>POV: You and the squad chatting while the Wi-Fi is literally on fire.</i>
 </p>
@@ -50,7 +50,7 @@ MeshLink turns your phone into a localized communication hub. No ISP? No Problem
 * **🎨 Modern Aesthetic:** Built with **Jetpack Compose** because XML belongs in a museum.
 
 <p align="center">
-  <img src="https://i.giphy.com/YQitE4YNQNahy.gif" width="350">
+  <img src="https://user-images.githubusercontent.com/74038190/216644507-4f06ea29-bf55-4356-aac0-d42751461a9d.gif" width="350">
 </p>
 
 ---
@@ -118,7 +118,7 @@ Got an idea to make the mesh faster? Found a bug?
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
+  <img src="https://user-images.githubusercontent.com/74038190/212751818-13da6fd2-27ca-45c4-9c64-3940ccfa6fd3.gif" width="100%">
 </p>
 
 ---
