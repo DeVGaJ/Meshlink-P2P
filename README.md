@@ -1,52 +1,69 @@
-<p align="center">
-  <img src="https://i.imgur.com/a0vGWwL.jpeg" width="150" alt="MeshLink Logo">
-</p>
-
-<h1 align="center">MeshLink</h1>
+# 🌐 MeshLink: The "No-Internet" Messenger
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Platform-Android-brightgreen.svg" alt="Platform">
-  <img src="https://img.shields.io/badge/Language-Kotlin-blue.svg" alt="Language">
-  <img src="https://img.shields.io/badge/Security-E2EE-blueviolet.svg" alt="Security">
-  <img src="https://img.shields.io/badge/Status-Educational-orange.svg" alt="Status">
+  <img src="https://i.imgur.com/a0vGWwL.jpeg" width="180" alt="MeshLink Logo" style="border-radius: 20%;">
 </p>
 
 <p align="center">
-  <strong>Secure, Off-Grid Peer-to-Peer Messaging</strong>
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Zero--Infrastructure-brightgreen?style=for-the-badge&logo=wi-fi" />
+  <img src="https://img.shields.io/badge/Security-Encrypted-blueviolet?style=for-the-badge&logo=google-cloud" />
+  <img src="https://img.shields.io/badge/UI-Jetpack--Compose-4285F4?style=for-the-badge&logo=jetpack-compose" />
+  <img src="https://img.shields.io/badge/Kotlin-Native-7F52FF?style=for-the-badge&logo=kotlin" />
+</p>
+
+<p align="center">
+  <b>Because waiting for a signal in a dead zone is so 2010. 📶🚫</b>
 </p>
 
 ---
 
+### 🎭 The "Why" (Real-World Scenarios)
+
+| The Hiker 🥾 | The Privacy Nerd 🛡️ | The Disaster Hero 🚒 |
+| :--- | :--- | :--- |
+| "I'm on top of a mountain with no bars, but I need to tell the group the snacks are here." | "I don't want my messages sitting on a server in some basement." | "The towers are down, but the mission goes on." |
+| **MeshLink: Connected.** | **MeshLink: Ghost Mode.** | **MeshLink: Essential.** |
+
+---
+
+### 🛰️ What is this Sorcery?
+
+MeshLink turns your phone into a localized communication hub. No ISP? No Problem. It uses **Google Nearby Connections** to create a digital web between devices. 
+
 <p align="center">
-  <img src="https://img.shields.io/badge/Platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kotlin-1.9+-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" />
-  <img src="https://img.shields.io/badge/UI-Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white" />
-  <img src="https://img.shields.io/badge/Security-Tink-blue?style=for-the-badge" />
+  <img src="https://i.giphy.com/3o7TKMGpxVfVIs9v6o.gif" width="400">
+  <br>
+  <i>POV: You and the squad chatting while the Wi-Fi is literally on fire.</i>
 </p>
 
-**MeshLink** is a decentralized, peer-to-peer (P2P) communication platform designed for **secure, internet-free messaging**. By creating a local mesh network, MeshLink allows users to exchange data in environments where Wi-Fi, cellular networks, or central servers are unavailable or untrusted.
+---
+
+### 🚀 Top-Tier Features
+
+* **🛸 UFO Discovery:** Automatically finds nearby humans (with the app) using Bluetooth & Wi-Fi Direct.
+* **🔒 Fort Knox Encryption:** Powered by **Google Tink**. Even we can't read your "u up?" texts.
+* **🔋 Battery-Sipping:** Optimized background services so your phone doesn't become a hand-warmers.
+* **🎨 Modern Aesthetic:** Built with **Jetpack Compose** because XML belongs in a museum.
+
+<p align="center">
+  <img src="https://i.giphy.com/YQitE4YNQNahy.gif" width="350">
+</p>
 
 ---
 
-## 🚀 Key Features
+### 🛠 The Engine Room (Tech Stack)
 
-* **Zero-Infrastructure:** No internet, no SIM cards, and no central servers required.
-* **Automatic Discovery:** Seamlessly find and connect to nearby peers using **Google Nearby Connections**.
-* **End-to-End Encryption:** All traffic is secured via the **Google Tink** library using **AES-GCM** and **X25519**.
-* **Background Resilience:** Uses Android Services to maintain connectivity even when the app is not in the foreground.
-* **Privacy-Centric:** Designed to be anonymous-by-default with no digital footprint left on external servers.
-
----
-
-## 🛠 Tech Stack
-
-| Layer | Technology |
+| Component | Technology |
 | :--- | :--- |
-| **Language** | Kotlin |
-| **UI Framework** | Jetpack Compose (Declarative UI) |
-| **Networking** | Google Nearby Connections API (P2P / Mesh) |
-| **Cryptography** | Google Tink (Authenticated Encryption) |
-| **Concurrency** | Kotlin Coroutines & Flow |
+| **Language** | Kotlin (Coroutines & Flow) |
+| **UI Framework** | Jetpack Compose (Modern Declarative UI) |
+| **Networking** | Google Nearby Connections API (P2P Mesh) |
+| **Cryptography** | Google Tink (AES-GCM & X25519) |
+| **Architecture** | Clean Architecture / MVVM |
 
 ---
 
@@ -56,19 +73,55 @@
 * Android device running **API 24 (Nougat)** or higher.
 * Bluetooth and Location services enabled (required for peer discovery).
 
-### Installation
+---
+
+### 🛠 Setup for Humans & Robots
+
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/DeVGaJ/MeshLink.git](https://github.com/DeVGaJ/MeshLink.git)
+    git clone [https://github.com/DeVGaJ/Meshlink-P2P.git](https://github.com/DeVGaJ/Meshlink-P2P.git)
     ```
 2.  **Open in Android Studio:**
-    Import the project and sync the Gradle files.
-3.  **Build and Run:**
-    Deploy the app to two or more Android devices to test the mesh connectivity.
+    Import the project and sync Gradle (requires Android Studio Arctic Fox or newer).
+3.  **Build & Run:**
+    Deploy the app to two or more Android devices to test the mesh connectivity. No internet required!
+
+<p align="center">
+  <img src="https://i.giphy.com/vFKqnCdLPNOKc.gif" width="300">
+  <br>
+  <i>Live footage of you building the future of P2P.</i>
+</p>
 
 ---
 
-## 🛡 Security & Educational Disclaimer
+### ⚠️ The "Don't Sue Me" Clause
+
+> [!CAUTION]
+> **Educational & Research Project.** While the encryption is "Military Grade," this hasn't been audited by a formal security professional. Don't use it to plan a heist or launch a rocket. Use it to learn and chat. The developer is not responsible for any misuse or data loss.
+
+---
+
+### 🤝 Contributing
+
+Got an idea to make the mesh faster? Found a bug? 
+* **Step 1:** Fork the project.
+* **Step 2:** Create your feature branch (`git checkout -b feature/CoolStuff`).
+* **Step 3:** Commit your changes.
+* **Step 4:** Push to the branch and open a Pull Request.
+
+---
+
+<p align="center">
+  <b>Built with ❤️ and a lot of caffeine by <a href="https://github.com/DeVGaJ">DeVGaJ</a></b>
+  <br>
+  <i>Android Developer | UI/UX Enthusiast | Mesh Pioneer</i>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
+</p>
+
+---
 
 > [!IMPORTANT]
 > This project is developed for **educational and research purposes**. While it implements robust encryption standards (AES-GCM), it has not undergone a formal professional security audit. 
@@ -80,20 +133,3 @@
 > The developer is not responsible for any data loss or misuse of this software.
 
 ---
-
-## 🤝 Contributing
-
-MeshLink is open-source! Whether it's fixing bugs, improving the mesh protocol, or refining the UI/UX, contributions are welcome.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
----
-
-## 👨‍💻 Developer
-Developed with ❤️ by **[DeVGaJ](https://github.com/DeVGaJ)**
-
-*Android Developer | UI/UX Designer*
